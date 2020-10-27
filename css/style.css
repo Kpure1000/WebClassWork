@@ -487,6 +487,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appear
 .ul-imgtxtq2 a:hover .pic img{-webkit-transform:scale(1.08);-moz-transform:scale(1.08);-ms-transform:scale(1.08);-o-transform:scale(1.08);transform:scale(1.08)}
 .ul-imgtxtq2 h3{font-size:18px;color:#fff;line-height:2.22em;text-align:center;font-weight:400;background:url(../images/bgq2.png) center top no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;padding:20px 0 8px;position:absolute;left:0;right:0;bottom:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .ul-imgtxtq2.qm2 h3{background-image:url(../images/bgq3.png)}
+
 .m-academician .boxs{margin-top:45px;padding-bottom:57px}
 .m-academician .boxs:after{content:'';display:block;clear:both;visibility:hidden;width:100%;height:0}
 .m-academician .boxs .item{-webkit-box-shadow:0 0 10px rgba(6,0,1,.1);-moz-box-shadow:0 0 10px rgba(6,0,1,.1);-ms-box-shadow:0 0 10px rgba(6,0,1,.1);-o-box-shadow:0 0 10px rgba(6,0,1,.1);box-shadow:0 0 10px rgba(6,0,1,.1);padding:29px 0 19px;margin-bottom:45px;overflow:hidden}
@@ -494,6 +495,7 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appear
 .m-academician .boxs h3:after{content:'';width:5px;height:31px;background-color:#0153aa;position:absolute;top:50%;left:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%)}
 .m-academician .ul-txt-q2{padding:16px 38px 10px}
 .m-academician .ul-txt-q2 li{width:16.66%;margin-bottom:17px}
+
 .ul-txtq2{font-size:0;text-align:center;border-bottom:1px solid #cfcfcf;overflow:hidden}
 .ul-txtq2 li{display:inline-block;vertical-align:middle;margin:0 37px}
 .ul-txtq2 li a{display:block;font-size:24px;color:#333;padding:0 0 0.6em 0 !important;position:relative;padding:0 12px;overflow:hidden;-webkit-transition:.3s;-moz-transition:.3s;-ms-transition:.3s;-o-transition:.3s;transition:.3s}
@@ -508,35 +510,8 @@ input::-webkit-inner-spin-button,input::-webkit-outer-spin-button{-webkit-appear
 .ul-txtq3 .box{height:129px;-webkit-box-shadow:0 0 10px rgba(6,0,2,.1);-moz-box-shadow:0 0 10px rgba(6,0,2,.1);-ms-box-shadow:0 0 10px rgba(6,0,2,.1);-o-box-shadow:0 0 10px rgba(6,0,2,.1);box-shadow:0 0 10px rgba(6,0,2,.1);position:relative;overflow:hidden;-webkit-transition:.3s;-moz-transition:.3s;-ms-transition:.3s;-o-transition:.3s;transition:.3s}
 .ul-txtq3 .con:hover .box{background-color: #eaf0f9;}
 .ul-txtq3 .txt h3 a:hover{color:#044fb9;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .ul-txtq3 .txt{position:absolute;top:50%;left:0;right:0;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);padding:0 40px;overflow:hidden}
 .ul-txtq3 .txt h3{font-size:18px;color:#000;line-height:2em;font-weight:400;overflow:hidden}
-
 .ul-txtq3 .txt span{display:block;font-size:16px;color:#666;line-height:1.5em;padding-left:30px;overflow:hidden}
 .ul-txtq3 .txt span a{color:#666}
 .ul-txtq3 .txt span a:hover{color:#044fb9;}
