@@ -1,5 +1,8 @@
 /*header*/
 
+body{
+    padding-top: 86px;
+}
 .toper{
     height: 86px;
     position: fixed;
@@ -9,25 +12,35 @@
     z-index: 102;
     background: url(../images/hd-bg1.png)center top no-repeat;
 }
-.toper.wlimit{
-    max-width: 1500;
-    width: 90%;
+.toper .wlimit{
+    max-width: 1180px;
+    width: 85%;
+    margin: auto;  
 }
-.toper.top{
-    padding-top: 21px;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
+.toper .top{
+    padding-top: 10px;
 }
-.toper.fixed.top{
-    display: none;
+.fix:after, .fix:before{
+    display:block;
+    content:"clear";
+    height:0;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden
 }
-/* .toper.top-l{
+.toper .top-l{
     float: left;
-} */
-.toper.top-l a{
+}
+.toper .top-l a{
     margin-right: 10px;
 }
-.toper.top-r{
+.toper .top-r{
     float: right;
+}
+.toper .top-r a{
+    margin-right: 10px;
+}
+a:visited,a:link,a:hover,a:active{
+    color: white;
+    text-decoration:none;
 }
