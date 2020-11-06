@@ -6,6 +6,18 @@ body{
     outline: 0;
     box-sizing: border-box;
 }
+
+/*          */
+
+.fright{
+    width:140px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-20%);
+}
+
+/*          */
+
 .toper{
     height: 110px;
     position: fixed;
@@ -45,13 +57,21 @@ body{
     margin-right: 10px;
 }
 .toper .under{
-    padding-top: 30px;
+    padding-top: 12px;
 }
 .under .under-l{
     float: left;
+    margin-left: -18px;
+}
+.under .under-l a{
+    margin-right: 15px;
 }
 .under .under-r{
     float: right;
+    margin-right: -18px;
+}
+.under .under-r a{
+    margin-right: 15px;
 }
 .under .logo{
     position: absolute;
@@ -60,7 +80,36 @@ body{
     z-index: 4;
     transform: translateX(-50%);
 }
-a:visited,a:link,a:hover,a:active{
+.top-l a:visited,
+.top-l a:link,
+.top-l a:hover,
+.top-l a:active{
     color: white;
     text-decoration:none;
+}
+.top-r a:visited,
+.top-r a:link,
+.top-r a:hover,
+.top-r a:active{
+    color: white;
+    text-decoration:none;
+}
+.under-l a:visited,
+.under-l a:link,
+.under-l a:hover,
+.under-l a:active{
+    color: white;
+    text-decoration:none;
+}
+.under-r a:visited,
+.under-r a:link,
+.under-r a:hover,
+.under-r a:active{
+    color: white;
+    text-decoration:none;
+}
+/*          */
+
+.scanner{
+
 }
