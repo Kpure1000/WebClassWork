@@ -2,14 +2,18 @@
 
 body{
     padding-top: 86px;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 .toper{
-    height: 86px;
+    height: 110px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 102;
+    background-size: cover;
     background: url(../images/hd-bg1.png)center top no-repeat;
 }
 .toper .wlimit{
@@ -18,7 +22,7 @@ body{
     margin: auto;  
 }
 .toper .top{
-    padding-top: 10px;
+    padding-top: 12px;
 }
 .fix:after, .fix:before{
     display:block;
@@ -39,6 +43,22 @@ body{
 }
 .toper .top-r a{
     margin-right: 10px;
+}
+.toper .under{
+    padding-top: 30px;
+}
+.under .under-l{
+    float: left;
+}
+.under .under-r{
+    float: right;
+}
+.under .logo{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 4;
+    transform: translateX(-50%);
 }
 a:visited,a:link,a:hover,a:active{
     color: white;
